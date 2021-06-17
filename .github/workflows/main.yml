@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          DEV_NAME ${{ secrets.dev.NAME }}
+          DEV_NAME: ${{ secrets.dev.NAME }}
         env:
           MY_NAME: ${{ secrets.NAME }}
  
