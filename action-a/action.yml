@@ -6,7 +6,7 @@ inputs:
   MY_NAME:
     description: "Who to greet"
     required: true
-    default: ${{ secrets.NAME }}
+    default: ${{secrets.NAME}}
 
 runs:
   using: "docker"
