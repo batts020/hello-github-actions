@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action-a
         env:
-          DEV_NAME: ${{ secrets.dev.DEV_NAME }}
+          DEV_NAME: ${{ secrets.DEV_NAME }}
           MY_NAME: ${{ secrets.NAME }}
  
