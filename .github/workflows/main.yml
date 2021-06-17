@@ -8,6 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
+        with:
+          DEV_NAME ${{ dev.NAME }}
         env:
           MY_NAME: ${{ secrets.NAME }}
  
