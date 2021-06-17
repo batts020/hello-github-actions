@@ -7,6 +7,9 @@ inputs:
     description: "Who to greet"
     required: true
     default: nada
+  DEV_NAME:
+    description: "Dev environment var"
+    required: false
 
 runs:
   using: "docker"
