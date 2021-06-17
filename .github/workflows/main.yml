@@ -12,5 +12,4 @@ jobs:
       - uses: ./action-a
         env:
           DEV_NAME: ${{ secrets.DEV_NAME }}
-          MY_NAME: ${{ secrets.NAME }}
  
