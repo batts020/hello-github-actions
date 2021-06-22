@@ -6,3 +6,4 @@ sh -c "echo Hello world my dev name is $DEV_NAME"
 
 
 
+hostname
